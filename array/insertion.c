@@ -3,8 +3,8 @@ void main(){
 
     int a[10]={1,4,5,2,34,67,34,34};
     int loc;
-    int n= 8;
-    int size = 10;
+    int n= 8; //no. of elements in array
+    int size = 10; // maximum capacity of array item
     int item;
 
 
@@ -19,7 +19,7 @@ void main(){
 
     }else{
 
-        for(int i = n-1;i>=loc;i--){
+        for(int i = n-1;i>=loc;i--){ //Right shifting algorithm
             a[i+1]=a[i];
             
         }
